@@ -17,6 +17,17 @@ function App() {
           <label htmlFor="tytul" className="form-label">Tytuł filmu</label>
           <input type="text" className="form-control" id="tytul" placeholder="" />
         </div>
+        <div className="col-6">
+        <label htmlFor="rodzaj" className="form-label">Rodzaj</label>
+        <select id="rodzaj" className="form-select">
+          <option defaultValue={0}></option>
+          <option>Komedia</option>
+          <option>Obyczajowy</option>
+          <option>Sensacyjny</option>
+          <option>Horror</option>
+        </select>  
+        </div>
+
         </form>
     </div>
   );
