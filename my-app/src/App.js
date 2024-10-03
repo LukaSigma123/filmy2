@@ -10,7 +10,16 @@ function App() {
     const rodzaj = event.target.elements.rodzaj.value;
     console.log(`tytul: ${tytul}, rodzaj: ${rodzaj}`);
   }
-
+  return (
+    <div className="container-fluid">
+      <form onSubmit={onSubmit}>
+        <div className="col-6">
+          <label htmlFor="tytul" className="form-label">Tytuł filmu</label>
+          <input type="text" className="form-control" id="tytul" placeholder="" />
+        </div>
+        </form>
+    </div>
+  );
 }
 
 export default App;
