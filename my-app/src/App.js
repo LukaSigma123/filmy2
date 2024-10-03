@@ -27,7 +27,9 @@ function App() {
           <option>Horror</option>
         </select>  
         </div>
-
+        <button type="submit" className="btn btn-primary">
+            Dodaj
+          </button>
         </form>
     </div>
   );
